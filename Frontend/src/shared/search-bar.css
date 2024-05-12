@@ -1,0 +1,48 @@
+.search__bar{
+    padding: 0.5rem;
+    border-radius: 50px;
+    box-shadow: rgba;
+    width: max-content;
+    margin-top:40px ;
+    background-color: #fff;
+    padding-right: 28px;
+    height: 90px;
+}
+.form__group{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+.form__group input{
+    border: none;
+    font-size: .9rem;
+    color:#000;
+    font-weight: 500;
+   
+}
+.form__group input:focus{
+   outline: none;
+}
+.form__group h6{
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    margin-top:2px ;
+}
+.form__group-fast{
+    padding: 12px;
+    border-right: 2px solid #ddd;
+    border-radius: 4px;
+}
+.form__group-last{
+    padding: 12px;
+}
+
+.search__icon{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+:root{
+--primary-color: hsl(199, 100%, 33);
+--secondary-color:hsl(187, 85%, 43%);
+--gradient-color: linear-gradient(to right, 85%, 43%), hsl (199, 100%, 33%);
+--text-color: hsl(0, 0%, 100%);
+--whiteColorDeam:hsl(0, 0%, 93%);
+--greyText:rgb(199, 190, 190);
+--inputColor:rgb(239, 239, 239);
+--body-color: hsl(0, 0%, 0%);
+--heading-color: hsl(0, 0%, 75%);
+--cardBG:rgb(225, 225, 235);
+--font-name: "Montserrat", sans-serif;
+--subtitle-font-name: "Playfair Display", italic;
+}
+body {
+    font-family: var(--font-name);
+    background-color: var(--body-color);
+    color: var(--text-color);
+  }
+  
+  section {
+    padding: 50px 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  .primary__btn {
+    background: var(--secondary-color) !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 0.4rem 1.5rem !important;
+    color: red;
+  }
+  
+  .primary__btn a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  .primary__btn a:hover {
+    color: inherit;
+  }
+  .secondary__btn {
+    background: var(--gradient-color) !important;
+    color: #0b2727 !important;
+    border: none !important;
+    font-weight: 500 !important;
+  }
+  
+  .secondary__btn a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--heading-color);
+  }
+  
+  .secondary__btn a:hover {
+    color: inherit;
+  }
+  
+  .section__subtitle {
+    background: var(--secondary-color);
+    font-family: var(--subtitle-font-name);
+    width: max-content;
+    padding: 0px 0.5rem;
+    padding-right: 1rem;
+  
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: var(--heading-color);
+  } */
