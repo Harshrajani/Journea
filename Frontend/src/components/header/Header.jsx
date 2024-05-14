@@ -29,7 +29,7 @@ const Header = () => {
 
               {/* ======== logo ======= */}
               <div className="logo">
-                <img src="#" alt="" />Journea
+                <img src="#" alt="" /> Journea
               </div>
               {/* ======== logo end ======= */}
 

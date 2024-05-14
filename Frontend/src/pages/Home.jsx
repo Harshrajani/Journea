@@ -15,6 +15,9 @@ import Subtitle from "../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
 
 import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
+import MasonryImagesGallery from "../components/Image_gallery/MasonryImagesGallery";
+import Testimonials from "../components/Testimonial/Testimonials";
+import Newsletter from "../shared/Newsletter";
 
 const Home = () => {
 	return (
@@ -135,7 +138,46 @@ const Home = () => {
 		</section>
 
 		{/* ======= experience section end ======== */}
-			
+
+		{/* ======= Gallery section start ======== */}
+			<section>
+				<Container>
+					<Row>
+						<Col lg='12'>
+							<Subtitle subtitle={"Gallery"}/>
+							<h2 className="gallery__title">
+								Visit Our Customers tour gallery
+							</h2>
+						</Col>
+						<Col lg='12'>
+							<MasonryImagesGallery />
+						</Col>
+					</Row>
+				</Container>
+			</section>
+		{/* ======= Gallery section end ======== */}
+
+		{/* ======= testimonial section start ======== */}
+			<section>
+				<Container>
+					<Row>
+						<Col lg='12'>
+							<Subtitle subtitle={"Customers Love"}/>
+							<h2 className="testimonial__title">
+								What our customers say about us
+							</h2>
+						</Col>
+						<Col lg='12'>
+						<Testimonials />
+						</Col>
+							
+					</Row>
+				</Container>
+			</section>
+		{/* ======= testimonial section end ======== */}	
+		{/* ======= Newsletter section start ======== */}
+		<Newsletter />
+		{/* ======= Newsletter section end ======== */}	
 		</>
 	);
 };
